@@ -8,3 +8,6 @@ javac -d ./out/ ./abstractfactory/AbstractFactoryPatternDemo.java
 
 # build singleton
 javac -d ./out/ ./singleton/SingletonPatternDemo.java
+
+# build builder
+javac -d ./out/ ./builder/BuilderPatternDemo.java
