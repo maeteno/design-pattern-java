@@ -14,3 +14,6 @@ javac -d ./out/ ./builder/BuilderPatternDemo.java
 
 # build prototype
 javac -d ./out/ ./prototype/PrototypePatternDemo.java
+
+# build adapter
+javac -d ./out/ ./adapter/AdapterPatternDemo.java
