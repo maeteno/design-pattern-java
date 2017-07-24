@@ -17,3 +17,6 @@ javac -d ./out/ ./prototype/PrototypePatternDemo.java
 
 # build adapter
 javac -d ./out/ ./adapter/AdapterPatternDemo.java
+
+# build bridge
+javac -d ./out/ ./bridge/BridgePatternDemo.java

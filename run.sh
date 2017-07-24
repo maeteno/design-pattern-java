@@ -21,4 +21,8 @@ java prototype.PrototypePatternDemo
 # run adapter
 java adapter.AdapterPatternDemo
 
+# build bridge
+java bridge.BridgePatternDemo
+
+
 cd ..
