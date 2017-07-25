@@ -23,3 +23,6 @@ javac -d ./out/ ./bridge/BridgePatternDemo.java
 
 # filter bridge
 javac -d ./out/ ./filter/CriteriaPatternDemo.java
+
+# filter composite
+javac -d ./out/ ./composite/CompositePatternDemo.java

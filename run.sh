@@ -21,10 +21,13 @@ java prototype.PrototypePatternDemo
 # run adapter
 java adapter.AdapterPatternDemo
 
-# build bridge
+# run bridge
 java bridge.BridgePatternDemo
 
-# filter bridge
+# run filter
 java filter.CriteriaPatternDemo
+
+# run bridge
+java composite.CompositePatternDemo
 
 cd ..
