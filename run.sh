@@ -30,4 +30,7 @@ java filter.CriteriaPatternDemo
 # run bridge
 java composite.CompositePatternDemo
 
+# run decorator
+java decorator.DecoratorPatternDemo
+
 cd ..
