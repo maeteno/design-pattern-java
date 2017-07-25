@@ -24,5 +24,7 @@ java adapter.AdapterPatternDemo
 # build bridge
 java bridge.BridgePatternDemo
 
+# filter bridge
+java filter.CriteriaPatternDemo
 
 cd ..

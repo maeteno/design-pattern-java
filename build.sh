@@ -20,3 +20,6 @@ javac -d ./out/ ./adapter/AdapterPatternDemo.java
 
 # build bridge
 javac -d ./out/ ./bridge/BridgePatternDemo.java
+
+# filter bridge
+javac -d ./out/ ./filter/CriteriaPatternDemo.java
