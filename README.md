@@ -1,9 +1,10 @@
 [![Build Status](https://travis-ci.org/maeteno/design-pattern-java.svg?branch=master)](https://travis-ci.org/maeteno/design-pattern-java)
 
-下面的对模式的描述不一定非常准确，甚至可能会误导。所以如果你不幸的看到类，请只作为参考。以下解释一般基于自己理解。更加准确详细的描述请参考以下连接
+下面的对模式的描述不一定非常准确，甚至可能会误导。所以如果你不幸的看到了，请只作为参考。以下解释一般基于自己理解。更加准确详细的描述请参考以下连接
 
-[Blog](https://blog.maeteno.me/study/design-pattern-tutorial)
-[Runoob](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)
+[Blog](https://blog.maeteno.me/tag/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)  
+
+[菜鸟教程](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)  
 
 # 创建型模式
 创建型模式都是设计和解决如何创建对象和生成对象的模式
