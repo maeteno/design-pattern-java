@@ -33,4 +33,7 @@ java composite.CompositePatternDemo
 # run decorator
 java decorator.DecoratorPatternDemo
 
+# run facade
+java facade.FacadePatternDemo
+
 cd ..

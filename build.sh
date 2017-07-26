@@ -29,3 +29,6 @@ javac -d ./out/ ./composite/CompositePatternDemo.java
 
 # filter decorator
 javac -d ./out/ ./decorator/DecoratorPatternDemo.java
+
+# filter facade
+javac -d ./out/ ./facade/FacadePatternDemo.java
