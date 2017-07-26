@@ -36,4 +36,7 @@ java decorator.DecoratorPatternDemo
 # run facade
 java facade.FacadePatternDemo
 
+# run flyweight
+java flyweight.FlyweightPatternDemo
+
 cd ..

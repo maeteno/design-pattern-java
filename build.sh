@@ -32,3 +32,6 @@ javac -d ./out/ ./decorator/DecoratorPatternDemo.java
 
 # filter facade
 javac -d ./out/ ./facade/FacadePatternDemo.java
+
+# filter flyweight
+javac -d ./out/ ./flyweight/FlyweightPatternDemo.java
