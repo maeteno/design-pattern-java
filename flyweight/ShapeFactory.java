@@ -3,7 +3,7 @@ package flyweight;
 import java.util.HashMap;
 
 public class ShapeFactory {
-   private static final HashMap<String, Shape> circleMap = new HashMap();
+   private static final HashMap<String, Shape> circleMap = new HashMap<String,Shape>();
 
    public static Shape getCircle(String color) {
       Circle circle = (Circle)circleMap.get(color);
