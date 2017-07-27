@@ -35,3 +35,6 @@ javac -d ./out/ ./facade/FacadePatternDemo.java
 
 # filter flyweight
 javac -d ./out/ ./flyweight/FlyweightPatternDemo.java
+
+# filter proxy
+javac -d ./out/ ./proxy/ProxyPatternDemo.java

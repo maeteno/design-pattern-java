@@ -39,4 +39,8 @@ java facade.FacadePatternDemo
 # run flyweight
 java flyweight.FlyweightPatternDemo
 
+# run proxy
+java proxy.ProxyPatternDemo
+
+
 cd ..
