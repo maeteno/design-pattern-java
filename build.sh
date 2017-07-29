@@ -47,3 +47,6 @@ javac -d ./out/ ./command/CommandPatternDemo.java
 
 # filter interpreter
 javac -d ./out/ ./interpreter/InterpreterPatternDemo.java
+
+# filter iterator
+javac -d ./out/ ./iterator/IteratorPatternDemo.java

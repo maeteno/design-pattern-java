@@ -51,4 +51,6 @@ java command.CommandPatternDemo
 # run command
 java interpreter.InterpreterPatternDemo
 
+# run iterator
+java iterator.IteratorPatternDemo
 cd ..
