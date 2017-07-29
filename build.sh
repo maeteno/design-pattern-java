@@ -21,32 +21,35 @@ javac -d ./out/ ./adapter/AdapterPatternDemo.java
 # build bridge
 javac -d ./out/ ./bridge/BridgePatternDemo.java
 
-# filter bridge
+# build bridge
 javac -d ./out/ ./filter/CriteriaPatternDemo.java
 
-# filter composite
+# build composite
 javac -d ./out/ ./composite/CompositePatternDemo.java
 
-# filter decorator
+# build decorator
 javac -d ./out/ ./decorator/DecoratorPatternDemo.java
 
-# filter facade
+# build facade
 javac -d ./out/ ./facade/FacadePatternDemo.java
 
-# filter flyweight
+# build flyweight
 javac -d ./out/ ./flyweight/FlyweightPatternDemo.java -Xlint:unchecked
 
-# filter proxy
+# build proxy
 javac -d ./out/ ./proxy/ProxyPatternDemo.java
 
-# filter responsibility
+# build responsibility
 javac -d ./out/ ./responsibility/ChainPatternDemo.java
 
-# filter command
+# build command
 javac -d ./out/ ./command/CommandPatternDemo.java
 
-# filter interpreter
+# build interpreter
 javac -d ./out/ ./interpreter/InterpreterPatternDemo.java
 
-# filter iterator
+# build iterator
 javac -d ./out/ ./iterator/IteratorPatternDemo.java
+
+# build mediator
+javac -d ./out/ ./mediator/MediatorPatternDemo.java

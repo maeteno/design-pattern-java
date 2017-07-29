@@ -11,6 +11,7 @@ public class NameRepository implements Container {
 
    private class NameIterator implements Iterator {
 
+      // 记录当前指针位置
       int index;
 
       @Override

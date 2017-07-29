@@ -53,4 +53,8 @@ java interpreter.InterpreterPatternDemo
 
 # run iterator
 java iterator.IteratorPatternDemo
+
+# run mediator
+java mediator.MediatorPatternDemo
+
 cd ..
