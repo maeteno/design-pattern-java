@@ -79,4 +79,8 @@ java mediator.MediatorPatternDemo
 echo "=============run memento============="
 java memento.MementoPatternDemo
 
+# run observer
+echo "=============run observer============="
+java observer.ObserverPatternDemo
+
 cd ..
