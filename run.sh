@@ -48,4 +48,7 @@ java responsibility.ChainPatternDemo
 # run command
 java command.CommandPatternDemo
 
+# run command
+java interpreter.InterpreterPatternDemo
+
 cd ..

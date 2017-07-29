@@ -44,3 +44,6 @@ javac -d ./out/ ./responsibility/ChainPatternDemo.java
 
 # filter command
 javac -d ./out/ ./command/CommandPatternDemo.java
+
+# filter interpreter
+javac -d ./out/ ./interpreter/InterpreterPatternDemo.java
