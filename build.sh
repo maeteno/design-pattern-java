@@ -59,3 +59,6 @@ javac -d ./out/ ./memento/MementoPatternDemo.java
 
 # build observer
 javac -d ./out/ ./observer/ObserverPatternDemo.java
+
+# build state
+javac -d ./out/ ./state/StatePatternDemo.java

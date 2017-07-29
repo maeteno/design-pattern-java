@@ -83,4 +83,7 @@ java memento.MementoPatternDemo
 echo "=============run observer============="
 java observer.ObserverPatternDemo
 
+# run state
+echo "=============run state============="
+java state.StatePatternDemo
 cd ..
