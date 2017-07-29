@@ -41,3 +41,6 @@ javac -d ./out/ ./proxy/ProxyPatternDemo.java
 
 # filter responsibility
 javac -d ./out/ ./responsibility/ChainPatternDemo.java
+
+# filter command
+javac -d ./out/ ./command/CommandPatternDemo.java

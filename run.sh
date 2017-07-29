@@ -45,4 +45,7 @@ java proxy.ProxyPatternDemo
 # run responsibility
 java responsibility.ChainPatternDemo
 
+# run command
+java command.CommandPatternDemo
+
 cd ..
