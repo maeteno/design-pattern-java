@@ -53,3 +53,6 @@ javac -d ./out/ ./iterator/IteratorPatternDemo.java
 
 # build mediator
 javac -d ./out/ ./mediator/MediatorPatternDemo.java
+
+# build Memento
+javac -d ./out/ ./memento/MementoPatternDemo.java
