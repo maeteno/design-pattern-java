@@ -42,5 +42,7 @@ java flyweight.FlyweightPatternDemo
 # run proxy
 java proxy.ProxyPatternDemo
 
+# run responsibility
+java responsibility.ChainPatternDemo
 
 cd ..

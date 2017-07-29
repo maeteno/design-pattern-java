@@ -34,7 +34,10 @@ javac -d ./out/ ./decorator/DecoratorPatternDemo.java
 javac -d ./out/ ./facade/FacadePatternDemo.java
 
 # filter flyweight
-javac -d ./out/ ./flyweight/FlyweightPatternDemo.java -Xlint:unchecked 
+javac -d ./out/ ./flyweight/FlyweightPatternDemo.java -Xlint:unchecked
 
 # filter proxy
 javac -d ./out/ ./proxy/ProxyPatternDemo.java
+
+# filter responsibility
+javac -d ./out/ ./responsibility/ChainPatternDemo.java
