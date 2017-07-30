@@ -62,3 +62,6 @@ javac -d ./out/ ./observer/ObserverPatternDemo.java
 
 # build state
 javac -d ./out/ ./state/StatePatternDemo.java
+
+# build
+javac -d ./out/ ./nullobject/NullPatternDemo.java

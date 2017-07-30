@@ -86,4 +86,9 @@ java observer.ObserverPatternDemo
 # run state
 echo "=============run state============="
 java state.StatePatternDemo
+
+# run state
+echo "=============run nullobject============="
+java nullobject.NullPatternDemo
+
 cd ..
