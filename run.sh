@@ -91,4 +91,8 @@ java state.StatePatternDemo
 echo "=============run nullobject============="
 java nullobject.NullPatternDemo
 
+# run strategy
+echo "=============run strategy============="
+java strategy.StrategyPatternDemo
+
 cd ..
