@@ -63,8 +63,11 @@ javac -d ./out/ ./observer/ObserverPatternDemo.java
 # build state
 javac -d ./out/ ./state/StatePatternDemo.java
 
-# build
+# build nullobject
 javac -d ./out/ ./nullobject/NullPatternDemo.java
 
-# build
+# build strategy
 javac -d ./out/ ./strategy/StrategyPatternDemo.java
+
+# build template
+javac -d ./out/ ./template/TemplatePatternDemo.java

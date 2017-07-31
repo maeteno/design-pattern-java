@@ -95,4 +95,8 @@ java nullobject.NullPatternDemo
 echo "=============run strategy============="
 java strategy.StrategyPatternDemo
 
+# run template
+echo "=============run template============="
+java template.TemplatePatternDemo
+
 cd ..
