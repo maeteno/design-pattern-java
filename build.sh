@@ -77,3 +77,6 @@ javac -d ./out/ ./visitor/VisitorPatternDemo.java
 
 # build mvc
 javac -d ./out/ ./mvc/MVCPatternDemo.java
+
+# build businessdelegate;
+javac -d ./out/ ./businessdelegate/BusinessDelegatePatternDemo.java

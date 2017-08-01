@@ -115,3 +115,6 @@ Laravel的中间件也是通过这么方式将request进行传递的。
 
 ## MVC 模式（MVC Pattern）
 MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这种模式用于应用程序的分层开发。
+
+## 业务代表模式（Business Delegate Pattern）
+业务代表模式（Business Delegate Pattern）用于对表示层和业务层解耦。它基本上是用来减少通信或对表示层代码中的业务层代码的远程查询功能。在业务层中我们有以下实体

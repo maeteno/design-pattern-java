@@ -107,4 +107,7 @@ java visitor.VisitorPatternDemo
 echo "=============run mvc============="
 java mvc.MVCPatternDemo
 
+# run businessdelegate
+echo "=============run mvc============="
+java businessdelegate.BusinessDelegatePatternDemo
 cd ..
