@@ -74,3 +74,6 @@ javac -d ./out/ ./template/TemplatePatternDemo.java
 
 # build visitor
 javac -d ./out/ ./visitor/VisitorPatternDemo.java
+
+# build mvc
+javac -d ./out/ ./mvc/MVCPatternDemo.java

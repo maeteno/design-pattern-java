@@ -103,4 +103,8 @@ java template.TemplatePatternDemo
 echo "=============run visitor============="
 java visitor.VisitorPatternDemo
 
+# run visitor
+echo "=============run mvc============="
+java mvc.MVCPatternDemo
+
 cd ..
