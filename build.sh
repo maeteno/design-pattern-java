@@ -71,3 +71,6 @@ javac -d ./out/ ./strategy/StrategyPatternDemo.java
 
 # build template
 javac -d ./out/ ./template/TemplatePatternDemo.java
+
+# build visitor
+javac -d ./out/ ./visitor/VisitorPatternDemo.java

@@ -99,4 +99,8 @@ java strategy.StrategyPatternDemo
 echo "=============run template============="
 java template.TemplatePatternDemo
 
+# run visitor
+echo "=============run visitor============="
+java visitor.VisitorPatternDemo
+
 cd ..
