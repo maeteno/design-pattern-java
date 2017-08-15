@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/maeteno/design-pattern-java.svg?branch=master)](https://travis-ci.org/maeteno/design-pattern-java)
+[![Build Status](https://travis-ci.org/maeteno/design-pattern-java.svg?branch=master)](https://travis-ci.org/maeteno/design-pattern-java)  [![Build Status](http://maeteno.com/api/badges/Alan-Fu/design-pattern/status.svg)](http://maeteno.com/Alan-Fu/design-pattern)
 
 下面的对模式的描述不一定非常准确，甚至可能会误导。所以如果你不幸的看到了，请只作为参考。以下解释一般基于自己理解。更加准确详细的描述请参考以下连接
 
