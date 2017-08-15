@@ -80,3 +80,6 @@ javac -d ./out/ ./mvc/MVCPatternDemo.java
 
 # build businessdelegate;
 javac -d ./out/ ./businessdelegate/BusinessDelegatePatternDemo.java
+
+# build compositeentity;
+javac -d ./out/ ./compositeentity/CompositeEntityPatternDemo.java

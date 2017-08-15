@@ -108,6 +108,10 @@ echo "=============run mvc============="
 java mvc.MVCPatternDemo
 
 # run businessdelegate
-echo "=============run mvc============="
+echo "=============run businessdelegate============="
 java businessdelegate.BusinessDelegatePatternDemo
+
+# run CompositeEntityPatternDemo
+echo "=============run CompositeEntityPatternDemo============="
+java compositeentity.CompositeEntityPatternDemo
 cd ..

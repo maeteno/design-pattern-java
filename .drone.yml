@@ -1,0 +1,8 @@
+pipeline:
+  backend:
+    image: java
+    commands:
+      - chmod +x ./build.sh
+      - chmod +x ./run.sh
+      - ./build.sh
+      - ./run.sh
