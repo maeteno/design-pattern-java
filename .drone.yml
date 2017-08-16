@@ -1,5 +1,5 @@
 pipeline:
-  backend:
+  test:
     image: java
     commands:
       - chmod +x ./build.sh

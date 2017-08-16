@@ -118,4 +118,9 @@ java compositeentity.CompositeEntityPatternDemo
 # run dao
 echo "=============run dao============="
 java dao.DaoPatternDemo
+
+# run frontcontroller
+echo "=============run frontcontroller============="
+java frontcontroller.FrontControllerPatternDemo
+
 cd ..

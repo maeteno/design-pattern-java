@@ -84,5 +84,8 @@ javac -d ./out/ ./businessdelegate/BusinessDelegatePatternDemo.java
 # build compositeentity;
 javac -d ./out/ ./compositeentity/CompositeEntityPatternDemo.java
 
-# build DAO;
+# build DAO
 javac -d ./out/ ./dao/DaoPatternDemo.java
+
+# build frontcontroller
+javac -d ./out/ ./frontcontroller/FrontControllerPatternDemo.java
