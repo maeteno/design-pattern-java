@@ -114,4 +114,8 @@ java businessdelegate.BusinessDelegatePatternDemo
 # run CompositeEntityPatternDemo
 echo "=============run CompositeEntityPatternDemo============="
 java compositeentity.CompositeEntityPatternDemo
+
+# run dao
+echo "=============run dao============="
+java dao.DaoPatternDemo
 cd ..

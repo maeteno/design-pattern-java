@@ -2,7 +2,7 @@
 
 下面的对模式的描述不一定非常准确，甚至可能会误导。所以如果你不幸的看到了，请只作为参考。以下解释一般基于自己理解。更加准确详细的描述请参考以下连接
 
-[Blog](https://blog.maeteno.me/tag/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)  
+[WIKI](https://wiki.maeteno.me/category/pattern#main)  
 
 [菜鸟教程](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)  
 
@@ -118,3 +118,16 @@ MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这
 
 ## 业务代表模式（Business Delegate Pattern）
 业务代表模式（Business Delegate Pattern）用于对表示层和业务层解耦。它基本上是用来减少通信或对表示层代码中的业务层代码的远程查询功能。在业务层中我们有以下实体
+
+## 组合实体模式（Composite Entity Pattern）
+组合实体模式（Composite Entity Pattern）用在 EJB 持久化机制中。一个组合实体是一个 EJB 实体 bean，代表了对象的图解。当更新一个组合实体时，内部依赖对象 beans 会自动更新，因为它们是由 EJB 实体 bean 管理的。以下是组合实体 bean 的参与者。
+- 组合实体（Composite Entity） - 它是主要的实体 bean。它可以是粗粒的，或者可以包含一个粗粒度对象，用于持续生命周期。
+- 粗粒度对象（Coarse-Grained Object） - 该对象包含依赖对象。它有自己的生命周期，也能管理依赖对象的生命周期。
+- 依赖对象（Dependent Object） - 依赖对象是一个持续生命周期依赖于粗粒度对象的对象。
+- 策略（Strategies） - 策略表示如何实现组合实体。
+
+## 数据访问对象模式（Data Access Object Pattern）
+数据访问对象模式（Data Access Object Pattern）或 DAO 模式用于把低级的数据访问 API 或操作从高级的业务服务中分离出来。以下是数据访问对象模式的参与者。
+- 数据访问对象接口（Data Access Object Interface） - 该接口定义了在一个模型对象上要执行的标准操作。
+- 数据访问对象实体类（Data Access Object concrete class） - 该类实现了上述的接口。该类负责从数据源获取数据，数据源可以是数据库，也可以是 xml，或者是其他的存储机制。
+- 模型对象/数值对象（Model Object/Value Object） - 该对象是简单的 POJO，包含了 get/set 方法来存储通过使用 DAO 类检索到的数据。
