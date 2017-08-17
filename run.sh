@@ -5,122 +5,122 @@ cd ./out/
 
 # run factory
 echo "=============run factory============="
-java factory.FactoryPatternDemo
+java creation.factory.FactoryPatternDemo
 
 # run abstractfactory
 echo "=============run abstractfactory============="
-java abstractfactory.AbstractFactoryPatternDemo
+java creation.abstractfactory.AbstractFactoryPatternDemo
 
 # run singleton
 echo "=============run singleton============="
-java singleton.SingletonPatternDemo
+java creation.singleton.SingletonPatternDemo
 
 # run builder
 echo "=============run builder============="
-java builder.BuilderPatternDemo
+java creation.builder.BuilderPatternDemo
 
 # run prototype
 echo "=============run prototype============="
-java prototype.PrototypePatternDemo
+java creation.prototype.PrototypePatternDemo
 
 # run adapter
 echo "=============run adapter============="
-java adapter.AdapterPatternDemo
+java structural.adapter.AdapterPatternDemo
 
 # run bridge
 echo "=============run bridge============="
-java bridge.BridgePatternDemo
+java structural.bridge.BridgePatternDemo
 
 # run filter
 echo "=============run filter============="
-java filter.CriteriaPatternDemo
+java structural.filter.CriteriaPatternDemo
 
 # run bridge
 echo "=============run bridge============="
-java composite.CompositePatternDemo
+java structural.composite.CompositePatternDemo
 
 # run decorator
 echo "=============run decorator============="
-java decorator.DecoratorPatternDemo
+java structural.decorator.DecoratorPatternDemo
 
 # run facade
 echo "=============run facade============="
-java facade.FacadePatternDemo
+java structural.facade.FacadePatternDemo
 
 # run flyweight
 echo "=============run flyweight============="
-java flyweight.FlyweightPatternDemo
+java structural.flyweight.FlyweightPatternDemo
 
 # run proxy
 echo "=============run proxy============="
-java proxy.ProxyPatternDemo
+java structural.proxy.ProxyPatternDemo
 
 # run responsibility
 echo "=============run responsibility============="
-java responsibility.ChainPatternDemo
+java behavioral.responsibility.ChainPatternDemo
 
 # run command
 echo "=============run command============="
-java command.CommandPatternDemo
+java behavioral.command.CommandPatternDemo
 
 # run command
 echo "=============run command============="
-java interpreter.InterpreterPatternDemo
+java behavioral.interpreter.InterpreterPatternDemo
 
 # run iterator
-cho "=============run iterator============="
-java iterator.IteratorPatternDemo
+echo "=============run iterator============="
+java behavioral.iterator.IteratorPatternDemo
 
 # run mediator
 echo "=============run mediator============="
-java mediator.MediatorPatternDemo
+java behavioral.mediator.MediatorPatternDemo
 
 # run memento
 echo "=============run memento============="
-java memento.MementoPatternDemo
+java behavioral.memento.MementoPatternDemo
 
 # run observer
 echo "=============run observer============="
-java observer.ObserverPatternDemo
+java behavioral.observer.ObserverPatternDemo
 
 # run state
 echo "=============run state============="
-java state.StatePatternDemo
+java behavioral.state.StatePatternDemo
 
 # run state
 echo "=============run nullobject============="
-java nullobject.NullPatternDemo
+java behavioral.nullobject.NullPatternDemo
 
 # run strategy
 echo "=============run strategy============="
-java strategy.StrategyPatternDemo
+java behavioral.strategy.StrategyPatternDemo
 
 # run template
 echo "=============run template============="
-java template.TemplatePatternDemo
+java behavioral.template.TemplatePatternDemo
 
 # run visitor
 echo "=============run visitor============="
-java visitor.VisitorPatternDemo
+java behavioral.visitor.VisitorPatternDemo
 
 # run visitor
 echo "=============run mvc============="
-java mvc.MVCPatternDemo
+java framework.mvc.MVCPatternDemo
 
 # run businessdelegate
 echo "=============run businessdelegate============="
-java businessdelegate.BusinessDelegatePatternDemo
+java framework.businessdelegate.BusinessDelegatePatternDemo
 
 # run CompositeEntityPatternDemo
 echo "=============run CompositeEntityPatternDemo============="
-java compositeentity.CompositeEntityPatternDemo
+java framework.compositeentity.CompositeEntityPatternDemo
 
 # run dao
 echo "=============run dao============="
-java dao.DaoPatternDemo
+java framework.dao.DaoPatternDemo
 
 # run frontcontroller
 echo "=============run frontcontroller============="
-java frontcontroller.FrontControllerPatternDemo
+java framework.frontcontroller.FrontControllerPatternDemo
 
 cd ..

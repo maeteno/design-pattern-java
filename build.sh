@@ -1,91 +1,91 @@
 #!/bin/bash
 
 # build factory
-javac -d ./out/ ./factory/FactoryPatternDemo.java
+javac -d ./out/ ./creation/factory/FactoryPatternDemo.java
 
 # build abstractfactory
-javac -d ./out/ ./abstractfactory/AbstractFactoryPatternDemo.java
+javac -d ./out/ ./creation/abstractfactory/AbstractFactoryPatternDemo.java
 
 # build singleton
-javac -d ./out/ ./singleton/SingletonPatternDemo.java
+javac -d ./out/ ./creation/singleton/SingletonPatternDemo.java
 
 # build builder
-javac -d ./out/ ./builder/BuilderPatternDemo.java
+javac -d ./out/ ./creation/builder/BuilderPatternDemo.java
 
 # build prototype
-javac -d ./out/ ./prototype/PrototypePatternDemo.java
+javac -d ./out/ ./creation/prototype/PrototypePatternDemo.java
 
 # build adapter
-javac -d ./out/ ./adapter/AdapterPatternDemo.java
+javac -d ./out/ ./structural/adapter/AdapterPatternDemo.java
 
 # build bridge
-javac -d ./out/ ./bridge/BridgePatternDemo.java
+javac -d ./out/ ./structural/bridge/BridgePatternDemo.java
 
 # build bridge
-javac -d ./out/ ./filter/CriteriaPatternDemo.java
+javac -d ./out/ ./structural/filter/CriteriaPatternDemo.java
 
 # build composite
-javac -d ./out/ ./composite/CompositePatternDemo.java
+javac -d ./out/ ./structural/composite/CompositePatternDemo.java
 
 # build decorator
-javac -d ./out/ ./decorator/DecoratorPatternDemo.java
+javac -d ./out/ ./structural/decorator/DecoratorPatternDemo.java
 
 # build facade
-javac -d ./out/ ./facade/FacadePatternDemo.java
+javac -d ./out/ ./structural/facade/FacadePatternDemo.java
 
 # build flyweight
-javac -d ./out/ ./flyweight/FlyweightPatternDemo.java -Xlint:unchecked
+javac -d ./out/ ./structural/flyweight/FlyweightPatternDemo.java -Xlint:unchecked
 
 # build proxy
-javac -d ./out/ ./proxy/ProxyPatternDemo.java
+javac -d ./out/ ./structural/proxy/ProxyPatternDemo.java
 
 # build responsibility
-javac -d ./out/ ./responsibility/ChainPatternDemo.java
+javac -d ./out/ ./behavioral/responsibility/ChainPatternDemo.java
 
 # build command
-javac -d ./out/ ./command/CommandPatternDemo.java
+javac -d ./out/ ./behavioral/command/CommandPatternDemo.java
 
 # build interpreter
-javac -d ./out/ ./interpreter/InterpreterPatternDemo.java
+javac -d ./out/ ./behavioral/interpreter/InterpreterPatternDemo.java
 
 # build iterator
-javac -d ./out/ ./iterator/IteratorPatternDemo.java
+javac -d ./out/ ./behavioral/iterator/IteratorPatternDemo.java
 
 # build mediator
-javac -d ./out/ ./mediator/MediatorPatternDemo.java
+javac -d ./out/ ./behavioral/mediator/MediatorPatternDemo.java
 
 # build Memento
-javac -d ./out/ ./memento/MementoPatternDemo.java
+javac -d ./out/ ./behavioral/memento/MementoPatternDemo.java
 
 # build observer
-javac -d ./out/ ./observer/ObserverPatternDemo.java
+javac -d ./out/ ./behavioral/observer/ObserverPatternDemo.java
 
 # build state
-javac -d ./out/ ./state/StatePatternDemo.java
+javac -d ./out/ ./behavioral/state/StatePatternDemo.java
 
 # build nullobject
-javac -d ./out/ ./nullobject/NullPatternDemo.java
+javac -d ./out/ ./behavioral/nullobject/NullPatternDemo.java
 
 # build strategy
-javac -d ./out/ ./strategy/StrategyPatternDemo.java
+javac -d ./out/ ./behavioral/strategy/StrategyPatternDemo.java
 
 # build template
-javac -d ./out/ ./template/TemplatePatternDemo.java
+javac -d ./out/ ./behavioral/template/TemplatePatternDemo.java
 
 # build visitor
-javac -d ./out/ ./visitor/VisitorPatternDemo.java
+javac -d ./out/ ./behavioral/visitor/VisitorPatternDemo.java
 
 # build mvc
-javac -d ./out/ ./mvc/MVCPatternDemo.java
+javac -d ./out/ ./framework/mvc/MVCPatternDemo.java
 
 # build businessdelegate;
-javac -d ./out/ ./businessdelegate/BusinessDelegatePatternDemo.java
+javac -d ./out/ ./framework/businessdelegate/BusinessDelegatePatternDemo.java
 
 # build compositeentity;
-javac -d ./out/ ./compositeentity/CompositeEntityPatternDemo.java
+javac -d ./out/ ./framework/compositeentity/CompositeEntityPatternDemo.java
 
 # build DAO
-javac -d ./out/ ./dao/DaoPatternDemo.java
+javac -d ./out/ ./framework/dao/DaoPatternDemo.java
 
 # build frontcontroller
-javac -d ./out/ ./frontcontroller/FrontControllerPatternDemo.java
+javac -d ./out/ ./framework/frontcontroller/FrontControllerPatternDemo.java
