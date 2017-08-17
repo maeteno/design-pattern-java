@@ -123,4 +123,8 @@ java framework.dao.DaoPatternDemo
 echo "=============run frontcontroller============="
 java framework.frontcontroller.FrontControllerPatternDemo
 
+# run intercepting
+echo "=============run intercepting============="
+java framework.intercepting.InterceptingFilterDemo
+
 cd ..

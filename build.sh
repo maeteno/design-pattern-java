@@ -89,3 +89,6 @@ javac -d ./out/ ./framework/dao/DaoPatternDemo.java
 
 # build frontcontroller
 javac -d ./out/ ./framework/frontcontroller/FrontControllerPatternDemo.java
+
+# build Interpreter
+javac -d ./out ./framework/intercepting/InterceptingFilterDemo.java
