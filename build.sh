@@ -92,3 +92,6 @@ javac -d ./out/ ./framework/frontcontroller/FrontControllerPatternDemo.java
 
 # build Interpreter
 javac -d ./out ./framework/intercepting/InterceptingFilterDemo.java
+
+# build framework
+javac -d ./out ./framework/servicelocator/ServiceLocatorPatternDemo.java

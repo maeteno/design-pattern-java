@@ -148,3 +148,6 @@ MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这
 - Target - Target 对象是请求处理程序。
 - 过滤管理器（Filter Manager） - 过滤管理器管理过滤器和过滤器链。
 - 客户端（Client） - Client 是向 Target 对象发送请求的对象。
+
+## 服务定位器模式（Service Locator Pattern）
+实现依赖注入
