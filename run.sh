@@ -127,7 +127,13 @@ java framework.frontcontroller.FrontControllerPatternDemo
 echo "=============run intercepting============="
 java framework.intercepting.InterceptingFilterDemo
 
-# run framework
-echo "=============run framework============="
+# run servicelocator
+echo "=============run servicelocator============="
 java framework.servicelocator.ServiceLocatorPatternDemo
+
+# run transferobject
+echo "=============run transferobject============="
+java framework.transferobject.TransferObjectPatternDemo
+
+
 cd ..
