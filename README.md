@@ -6,6 +6,22 @@
 
 [菜鸟教程](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)  
 
+# 目录结构
+```yml
+- behavioral [行为型]
+  - command [命令模式]
+  - interpreter [解释器模式]
+  - iterator [迭代器模式]
+  - mediator [中介者模式]
+  - memento [备忘录模式]
+  - nullobject [空对象模式]
+- creation [创建型]
+- framework
+- out [编译输出目录]
+- structural [结构型]
+```
+
+
 # 创建型模式
 创建型模式都是设计和解决如何创建对象和生成对象的模式
 
